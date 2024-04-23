@@ -1,4 +1,6 @@
+// Класс 'Сортировщик'
 public class Sorter {
+    // Сортировка перемешиванием
     public static void shakerSort(int[] array)
     {
         int left = 0;
@@ -30,6 +32,7 @@ public class Sorter {
 
     }
 
+    // Метод для обмена позициями элементов
     private static void swap(int[] array, int i, int j)
     {
         int temp = array[i];
