@@ -3,6 +3,7 @@ import java.util.List;
 
 public abstract class Anime {
 
+    // Конструктор класса
     Anime(String displayName, List<String> genres, double rating, int episodesCount, LocalDate releaseDate)
     {
         try
@@ -19,10 +20,15 @@ public abstract class Anime {
         }
     }
 
+    // Отображаемое имя
     private String  displayName;
+    // Жанры
     private List<String> genres;
+    // Рейтинг
     private double rating;
+    // Кол-во серий
     private int episodesCount;
+    // Дата выхода
     private LocalDate releaseDate;
 
     public void setDisplayName(String displayName)
